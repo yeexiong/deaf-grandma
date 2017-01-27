@@ -1,42 +1,49 @@
-# 99 Bottles
+# Deaf Grandma
 
-Write a program that can print the song "99 Bottles of Beer".
+This small challenge comes from Chris Pine's "Learn to Program".
 
-## The Song
+## Premise
+
+Write a program which can imitate a Grandma who's hard of hearing and follows
+these constraints:
+
+* If you don't input anything (just hit enter) she responds with `WHAT?!`
+* If you ask a question with any lower-case letters, she responds with
+`SPEAK UP, KID!`
+* If you ask a question in all upper-case letters, she responds with
+`NO, NOT SINCE 1946!`
+* The first time you say `GOODBYE!` she says `LEAVING SO SOON?`
+* The second time you say `GOODBYE!` she says `LATER, SKATER!` and the program
+exits.
+
+## Example
 
 ```
-99 bottles of beer on the wall, 99 bottles of beer.
-Take one down and pass it around, 98 bottles of beer on the wall.
-98 bottles of beer on the wall, 98 bottles of beer.
-Take one down and pass it around, 97 bottles of beer on the wall.
-97 bottles of beer on the wall, 97 bottles of beer.
-Take one down and pass it around, 96 bottles of beer on the wall.
-96 bottles of beer on the wall, 96 bottles of beer.
-Take one down and pass it around, 95 bottles of beer on the wall.
-95 bottles of beer on the wall, 95 bottles of beer.
-Take one down and pass it around, 94 bottles of beer on the wall.
-94 bottles of beer on the wall, 94 bottles of beer.
-Take one down and pass it around, 93 bottles of beer on the wall.
-93 bottles of beer on the wall, 93 bottles of beer.
-Take one down and pass it around, 92 bottles of beer on the wall.
-92 bottles of beer on the wall, 92 bottles of beer.
-Take one down and pass it around, 91 bottles of beer on the wall.
-91 bottles of beer on the wall, 91 bottles of beer.
-Take one down and pass it around, 90 bottles of beer on the wall.
-...
-...
-...
-Take one down and pass it around, 1 bottle of beer on the wall.
-1 bottle of beer on the wall, 1 bottle of beer.
-Take one down and pass it around, no more bottles of beer on the wall.
-No more bottles of beer on the wall, no more bottles of beer.
-Go to the store and buy some more, 99 bottles of beer on the wall.
+HEY KID!
+> hi, grandma
+SPEAK UP, KID!
+> I SAID HI, GRANDMA
+NO, NOT SINCE 1946!
+>
+WHAT?!
+> Goodbye!
+SPEAK UP, KID!
+> GOODBYE!
+LEAVING SO SOON?
+> GOODBYE!
+LATER, SKATER!
 ```
 
-# Considerations
-* Take note of how the 'bottles' turns to 'bottle' at the right time
-* You can certainly use while, for, each, and various other built in methods
+## Considerations (Ruby)
+* In your code you'll definitely need to use `if` and likely an `elsif` and `else`.
+* Also remember that `gets` is the "inverse" method of `puts` -- while `puts` outputs information to the terminal, `gets` captures information from the user by presenting a command prompt and allowing them to type input.
+* If you have infinite loop, how might you break out of it?
 
-# Challenge Yourself
-* Make your code able to take in and account for any bottle amount
-* Refactor your code so it doesn't use any loops or iteration whatsoever
+## Considerations (Javascript)
+* In your code you'll definitely need to use `if` and likely an `else if` and `else`.
+* Will you need [prompt](http://www.w3schools.com/jsref/met_win_prompt.asp)?
+* If you have infinite loop, how might you break out of it?
+
+## Challenge Yourself
+
+For a little extra fun, try refactoring your code to use regular expressions.
