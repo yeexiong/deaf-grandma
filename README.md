@@ -41,7 +41,7 @@ LATER, SKATER!
 
 ## Considerations (Javascript)
 * In your code you'll definitely need to use `if` and likely an `else if` and `else`.
-* Will you need [prompt](http://www.w3schools.com/jsref/met_win_prompt.asp)?
+* Will you need [prompt](http://www.w3schools.com/jsref/met_win_prompt.asp) or [prompt](https://github.com/flatiron/prompt)?
 * If you have infinite loop, how might you break out of it?
 
 ## Challenge Yourself
