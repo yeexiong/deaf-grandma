@@ -42,7 +42,7 @@ LATER, SKATER!
 ## Considerations (Javascript)
 * Just a heads up: this is extraordinarily difficult to do in JS
 * In your code you'll definitely need to use `if` and likely an `else if` and `else`.
-* Will you need [prompt](http://www.w3schools.com/jsref/met_win_prompt.asp) or [prompt](https://github.com/flatiron/prompt)?
+* Will you need [prompt](http://www.w3schools.com/jsref/met_win_prompt.asp) or [prompt](https://github.com/flatiron/prompt)? [Google](https://www.google.com/search?q=javascript+how+to+prompt+user+from+the+command+line&oq=javascript+how+to+prompt+user+from+the+command+line&gs_l=psy-ab.3..33i22i29i30k1.3662.8926.0.9212.42.28.0.0.0.0.278.3644.0j16j5.21.0....0...1.1.64.psy-ab..34.1.135.W7Xo9Rq5nKY) it!
 
 ## Challenge Yourself
 
