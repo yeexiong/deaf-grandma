@@ -35,10 +35,10 @@ LEAVING SO SOON?
 LATER, SKATER!
 ```
 
-## Considerations (Ruby)
-* In your code you'll definitely need to use `if` and likely an `elsif` and `else`.
-* Also remember that `gets` is the "inverse" method of `puts` -- while `puts` outputs information to the terminal, `gets` captures information from the user by presenting a command prompt and allowing them to type input.
-* If you have infinite loop, how might you break out of it?
+## Considerations (Python)
+* In your code you'll definitely need to use `if` and likely an `elif` and `else`.
+* Also remember that `input` is the "inverse" method of `print` -- while `print` outputs information to the terminal, `input` captures information from the user by presenting a command prompt and allowing them to type input.
+* If you have an infinite loop, how might you break out of it?
 
 ## Considerations (Javascript)
 * Just a heads up: this is extraordinarily difficult to do in JS
