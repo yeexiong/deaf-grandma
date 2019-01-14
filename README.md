@@ -1,7 +1,7 @@
 # Deaf Grandma
 
-This small challenge comes from Chris Pine's "Learn to Program".
-
+This small challenge comes from Chris Pine's "Learn to Program". Ensure that you read everything and click every link before starting the work.
+ 
 ## Premise
 
 Write a program which can imitate a Grandma who's hard of hearing and follows
